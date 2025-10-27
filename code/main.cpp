@@ -51,7 +51,7 @@ int main(int argc, char** argv){
 
     std::cout << "storage size: " << storage_size << " " << storage_size * p.f_a << std::endl; 
     std::cout << "num skips: " << num_skips << " " << num_skips * p.f_s << std::endl;
-    std::cout << "total score:" << score / normalizer << std::endl;
+    std::cout << "total score:" << score * 100.0 / normalizer << std::endl;
 
     return 0; 
 }
